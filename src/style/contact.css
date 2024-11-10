@@ -1,0 +1,66 @@
+.mb-6 {
+    margin: 10px;
+    color: #fff;
+}
+.contact{
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+    border: 3px solid black;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+    border-radius: 10px;
+    background-color: black;
+}
+.input-field {
+    margin: 3px;
+    height: 40px;
+    width: 90%;
+    color: #ffffffca;
+    border: 1px solid #ccc;
+    border-right-width: 2px;
+    border-radius: 5px;
+    padding: 10px;
+    
+}
+.contact1{
+    padding: 10px;
+}
+.cont-link{
+    color: rgb(251, 241, 241);
+    text-decoration: none;
+    padding: 5px;
+}
+.h11{
+    padding: 5px;
+    color: whitesmoke;
+    text-align: center;
+}
+.contact2{
+    margin-top: 60px;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    
+}
+.btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    margin-left: 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  
+}
+
+.btn:hover {
+    background-color:   
+ #0062cc;
+}
+@media screen and (min-width:100px) and (max-width:750px){
+    .contact{
+        display: flex;
+        flex-direction: column;
+    }
+}
