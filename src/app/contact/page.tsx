@@ -1,6 +1,5 @@
 import React from 'react'
 import '@/style/contact.css'
-import Link from 'next/link'
 const page = () => {
   return (
     <div >
